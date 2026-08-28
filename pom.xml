@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.thunkware.sun</groupId>
+    <artifactId>com.sun.tools</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>com.sun.tools</name>
+    <description>
+        tools.jar from JDK5/6/7/8
+    </description>
+
+    <url>https://github.com/thunkware/sun-tools.git</url>
+    <inceptionYear>2026</inceptionYear>
+    <organization>
+        <name>thunkware</name>
+    </organization>
+
+    <modules>
+        <module>com.sun.tools.5</module>
+        <module>com.sun.tools.6</module>
+        <module>com.sun.tools.7</module>
+        <module>com.sun.tools.8</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
+        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+        <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
+        <flatten-maven-plugin.version>1.8.0</flatten-maven-plugin.version>
+    </properties>
+
+    <licenses>
+        <license>
+            <name>Apache 2</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>manual</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/thunkware/sun-tools.git</connection>
+        <developerConnection>scm:git:https://github.com/thunkware/sun-tools.git</developerConnection>
+        <url>https://github.com/thunkware/sun-tools</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>maxxedev</name>
+        </developer>
+    </developers>
+
+</project>
